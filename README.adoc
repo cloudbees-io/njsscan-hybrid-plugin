@@ -1,0 +1,33 @@
+= CloudBees action: Scan with njsscan
+
+Use this action to perform scan with njsscan scanner.
+
+== Inputs
+
+[cols="2a,1a,1a,3a",options="header"]
+.Input details to be done
+|===
+
+|===
+
+== Usage example
+
+In your YAML file, add:
+
+[source,yaml]
+----
+
+      - name: njsscan hybrid plugin scan
+        uses: cloudbees-io/njsscan-hybrid-plugin@v1
+
+----
+
+== License
+
+This code is made available under the 
+link:https://opensource.org/license/mit/[MIT license].
+
+== References
+
+* Learn more about link:https://docs.cloudbees.com/docs/cloudbees-platform/latest/actions[using actions in CloudBees workflows].
+* Learn about link:https://docs.cloudbees.com/docs/cloudbees-platform/latest/[the CloudBees platform].
