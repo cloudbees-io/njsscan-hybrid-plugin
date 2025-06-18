@@ -13,12 +13,6 @@ Use this action to perform scan on a repository with njsscan scanner.
 | Required?
 | Description
 
-
-| `ref`
-| String
-| No
-| Specify the ref that should be checked out and archived.
-
 | `workspace-dir`
 | String
 | No
