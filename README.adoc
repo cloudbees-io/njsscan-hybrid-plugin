@@ -1,11 +1,11 @@
 = CloudBees action: Scan with njsscan
 
-Use this action to perform scan on a repository with njsscan scanner.
+Use this action to perform static application security testing (SAST) on Node.js code with njsscan, a semantic-aware scanner.
 
 == Inputs
 
 [cols="2a,1a,1a,3a",options="header"]
-.Input details to be done
+.Input details
 |===
 
 | Input name
@@ -16,7 +16,7 @@ Use this action to perform scan on a repository with njsscan scanner.
 | `workspace-dir`
 | String
 | No
-| Specify the path where the checked out code will be present for scanning.
+| The path of the code to be scanned.
 
 |===
 
@@ -26,8 +26,7 @@ In your YAML file, add:
 
 [source,yaml]
 ----
-
-      - name: njsscan hybrid plugin scan
+      - name: Scan with njsscan SAST scanner
         uses: cloudbees-io/njsscan-hybrid-plugin@v1
 
 ----
